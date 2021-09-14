@@ -7,4 +7,15 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="blue">#4255FF</color>
+    <color name="left_chat">#FFE7ED</color>
+    <color name="right_chat">#E8EBFF</color>
+    <color name="gray_background">#EFEFF0</color>
+    <color name="gray">#A6A6AD</color>
+    <color name="left_devider">#F1DCE4</color>
+    <color name="right_devider">#DCE0F5</color>
+
+
+
+
 </resources>
