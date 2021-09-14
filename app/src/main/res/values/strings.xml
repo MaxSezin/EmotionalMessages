@@ -4,4 +4,5 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="emoji">emoji</string>
     <string name="message">Сообщение</string>
+    <string name="search">Поиск</string>
 </resources>
