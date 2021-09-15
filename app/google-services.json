@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "668660095120",
+    "project_id": "emotionalmessage-15c65",
+    "storage_bucket": "emotionalmessage-15c65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668660095120:android:d4b194d19200a9d0d7a015",
+        "android_client_info": {
+          "package_name": "com.example.emotionalmessages"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "668660095120-3o7hv6ue0pjuqglusbkf6pqolkt90jbf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.emotionalmessages",
+            "certificate_hash": "6e39dc20a78a7b9b4d7d604ad1f20b2b9434916c"
+          }
+        },
+        {
+          "client_id": "668660095120-6tlduuqcu8ep4ga7mqifhkrktjimjp6b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxra067buabsomNmoJfcZmDpMG5MZFCuk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "668660095120-6tlduuqcu8ep4ga7mqifhkrktjimjp6b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
