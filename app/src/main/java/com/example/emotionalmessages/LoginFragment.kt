@@ -39,7 +39,7 @@ class LoginFragment: Fragment() {
                 .addOnCompleteListener{
                     if (!it.isSuccessful) return@addOnCompleteListener
                     else{
-
+                        val user = it.getResult()?.getUser()
                     }
                 }
         }
