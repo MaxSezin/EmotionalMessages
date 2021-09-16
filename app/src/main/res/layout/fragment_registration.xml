@@ -6,6 +6,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_pers"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_image"
+        app:civ_border_color="#3f51b5"
+        app:civ_border_width="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/email"
+        app:layout_constraintEnd_toEndOf="@+id/email"
+        app:layout_constraintStart_toStartOf="@+id/email"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <EditText
         android:id="@+id/password_rg"
         android:layout_width="wrap_content"
@@ -13,11 +26,10 @@
         android:layout_marginBottom="16dp"
         android:ems="10"
         android:hint="Password"
-        android:inputType="textPersonName"
+        android:inputType="textPassword"
         app:layout_constraintBottom_toTopOf="@+id/user_name_rg"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.477"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="@+id/email"
+        app:layout_constraintStart_toStartOf="@+id/email" />
 
     <EditText
         android:id="@+id/email"
@@ -39,8 +51,8 @@
         android:layout_marginBottom="32dp"
         android:text="Registration"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="@+id/user_name_rg"
+        app:layout_constraintStart_toStartOf="@+id/user_name_rg" />
 
     <EditText
         android:id="@+id/user_name_rg"
@@ -51,8 +63,7 @@
         android:hint="UserName"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toTopOf="@+id/registration_button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.477"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="@+id/password_rg"
+        app:layout_constraintStart_toStartOf="@+id/password_rg" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
