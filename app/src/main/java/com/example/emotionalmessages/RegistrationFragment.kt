@@ -35,7 +35,7 @@ class RegistrationFragment: Fragment() {
         super.onViewCreated(view, savedInstanceState)
         val registration_button = view.findViewById<Button>(R.id.registration_button)
         val email = view.findViewById<EditText>(R.id.email)
-        val password = view.findViewById<EditText>(R.id.password_rg)
+        val password = view.findViewById<EditText>(R.id.password)
         val userName = view.findViewById<EditText>(R.id.user_name_rg)
         image = view.findViewById<CircleImageView>(R.id.image)
         image.setOnClickListener{
